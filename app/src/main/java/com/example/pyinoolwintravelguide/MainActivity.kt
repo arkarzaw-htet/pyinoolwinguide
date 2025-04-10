@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
         val btnNext = findViewById<Button>(R.id.button2)
         val btnBack = findViewById<Button>(R.id.button)
-        val text = findViewById<TextView>(R.id.textView)
+        var text = findViewById<TextView>(R.id.textView)
         val img = findViewById<ImageView>(R.id.imageView)
         btnNext.setOnClickListener {
             text.setText("You Clicked Next") 
@@ -35,4 +35,5 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
 }
