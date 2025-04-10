@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val text = findViewById<TextView>(R.id.textView)
         val img = findViewById<ImageView>(R.id.imageView)
         btnNext.setOnClickListener {
-            text.setText("You Clicked Next")
+            text.setText("You Clicked Next") 
 
         }
 
